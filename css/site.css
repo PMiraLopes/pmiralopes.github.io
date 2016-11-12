@@ -1,0 +1,502 @@
+.arrow-down-button, .arrow-left-button, .arrow-down-button-dark, .arrow-left-button-dark {
+  background: url(../images/arrow-down2-50x50.png) no-repeat center;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  -moz-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  z-index: 3; }
+  .arrow-down-button:hover, .arrow-left-button:hover, .arrow-down-button-dark:hover, .arrow-left-button-dark:hover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+.arrow-left-button {
+  background: url(../images/arrow-left2-50x50.png) no-repeat center; }
+
+.arrow-down-button-dark {
+  background: url(../images/arrow-down2-dark-50x50.png) no-repeat center; }
+
+.arrow-left-button-dark {
+  background: url(../images/arrow-left2-dark-50x50.png) no-repeat center; }
+
+.contacts {
+  padding-top: 50px;
+  width: 100%;
+  text-align: center; }
+  .contacts ul {
+    list-style: none;
+    display: inline-block; }
+    .contacts ul li {
+      display: inline-block; }
+      .contacts ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px; }
+
+.background-constellation {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2; }
+
+.footer-constellation {
+  background: url(../images/footer.jpg) no-repeat center;
+  width: 100%;
+  height: 200px; }
+
+.home {
+  display: inline-block;
+  width: 100%; }
+  .home .name-section {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/Lisbon.jpg) no-repeat center;
+    background-size: cover;
+    position: relative; }
+    .home .name-section .arrow-down-button, .home .name-section .arrow-left-button, .home .name-section .arrow-down-button-dark, .home .name-section .arrow-left-button-dark {
+      position: absolute;
+      left: 50%;
+      bottom: 10px; }
+    .home .name-section .name-text {
+      color: white;
+      text-align: center;
+      margin-top: 25%; }
+  .home .content-text {
+    display: inline-flex;
+    height: 100%;
+    background-color: #6596cf;
+    width: 33.3%;
+    text-align: left;
+    color: white; }
+  .home .content-image {
+    background-color: green;
+    display: inline-block;
+    height: 100%;
+    width: 33.3%;
+    position: relative;
+    overflow: hidden; }
+    .home .content-image img {
+      width: 100%;
+      height: 100%;
+      transition: all 600ms ease-in-out; }
+    .home .content-image .content-image-box {
+      position: absolute;
+      top: 45%;
+      left: 38%;
+      border: 2px solid white;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .home .content-image .content-image-box a {
+        text-decoration: none;
+        color: white; }
+    .home .content-image:hover img {
+      transform: scale(1.05); }
+    .home .content-image:hover .content-image-box {
+      background-color: white; }
+      .home .content-image:hover .content-image-box a {
+        color: Black; }
+  .home section {
+    display: inline-flex;
+    width: 100%;
+    height: 50%;
+    position: relative; }
+    .home section .arrow-down-button, .home section .arrow-left-button, .home section .arrow-down-button-dark, .home section .arrow-left-button-dark {
+      position: absolute;
+      left: 50%;
+      bottom: 10px; }
+    .home section article {
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 15%; }
+      .home section article .divider {
+        display: block;
+        width: 33%;
+        border-bottom: 5px solid white;
+        margin-top: 35px;
+        margin-bottom: 35px; }
+  .home .social-icons {
+    position: absolute;
+    bottom: -120%;
+    left: 30%;
+    display: inline-block; }
+    .home .social-icons ul {
+      list-style: none; }
+      .home .social-icons ul li {
+        display: inline-block; }
+    .home .social-icons a {
+      color: white;
+      text-decoration: none;
+      padding: 10px; }
+
+.about-body {
+  background: black; }
+
+.about-me {
+  width: 100%; }
+  .about-me .about-me-image {
+    background: url(../images/aboutMe2.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%; }
+  .about-me .about-me-content {
+    display: inline-block;
+    height: 75%;
+    width: 100%;
+    position: relative; }
+    .about-me .about-me-content article {
+      position: absolute;
+      top: -45%;
+      left: 5%;
+      width: 90%;
+      color: white;
+      font-size: 16;
+      background: #353535;
+      /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(#353535, rgba(53, 53, 53, 0.6));
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#353535, rgba(53, 53, 53, 0.6));
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#353535, rgba(53, 53, 53, 0.6));
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#353535, rgba(53, 53, 53, 0.6));
+      /* Standard syntax */ }
+      .about-me .about-me-content article .about-me-title-section img {
+        margin-left: 100px;
+        display: inline-block;
+        margin-top: -50px; }
+      .about-me .about-me-content article .about-me-title-section .about-me-title {
+        display: inline-block;
+        padding-left: 50px;
+        padding-top: 50px; }
+        .about-me .about-me-content article .about-me-title-section .about-me-title h3 {
+          font-size: 33px;
+          line-height: 25px; }
+          .about-me .about-me-content article .about-me-title-section .about-me-title h3.black {
+            color: #202020; }
+      .about-me .about-me-content article .about-me-name {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 16px;
+        display: inline-block; }
+        .about-me .about-me-content article .about-me-name .black {
+          color: #202020; }
+      .about-me .about-me-content article .arrow-down-button, .about-me .about-me-content article .arrow-left-button, .about-me .about-me-content article .arrow-down-button-dark, .about-me .about-me-content article .arrow-left-button-dark {
+        float: right;
+        margin-right: 40px;
+        margin-top: 20px; }
+      .about-me .about-me-content article .arrow-left-button {
+        float: right;
+        margin-right: 10px;
+        margin-top: 20px; }
+      .about-me .about-me-content article p {
+        padding-left: 100px;
+        padding-right: 100px; }
+        .about-me .about-me-content article p.about-me-text {
+          padding-top: 50px; }
+
+.contact-body {
+  background-color: #a08142; }
+
+.contact-me {
+  width: 100%; }
+  .contact-me .contact-me-image {
+    background: url(../images/contactMe.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%; }
+  .contact-me .contact-me-content {
+    display: inline-block;
+    height: 80%;
+    width: 100%;
+    position: relative; }
+    .contact-me .contact-me-content article {
+      position: absolute;
+      top: -45%;
+      left: 5%;
+      width: 90%;
+      color: white;
+      font-size: 16;
+      background: #6f5533;
+      /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(#6f5533, rgba(111, 85, 51, 0.7));
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#6f5533, rgba(111, 85, 51, 0.7));
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#6f5533, rgba(111, 85, 51, 0.7));
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#6f5533, rgba(111, 85, 51, 0.7));
+      /* Standard syntax */ }
+      .contact-me .contact-me-content article .contact-me-title-section img {
+        margin-left: 100px;
+        display: inline-block;
+        margin-top: -50px; }
+      .contact-me .contact-me-content article .contact-me-title-section .contact-me-title {
+        display: inline-block;
+        padding-left: 50px;
+        padding-top: 50px; }
+        .contact-me .contact-me-content article .contact-me-title-section .contact-me-title h3 {
+          font-size: 33px;
+          line-height: 25px; }
+          .contact-me .contact-me-content article .contact-me-title-section .contact-me-title h3.black {
+            color: #202020; }
+      .contact-me .contact-me-content article .contact-me-name {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 16px;
+        display: inline-block; }
+        .contact-me .contact-me-content article .contact-me-name .black {
+          color: #202020; }
+      .contact-me .contact-me-content article .arrow-down-button, .contact-me .contact-me-content article .arrow-left-button, .contact-me .contact-me-content article .arrow-down-button-dark, .contact-me .contact-me-content article .arrow-left-button-dark {
+        float: right;
+        margin-right: 40px;
+        margin-top: 20px; }
+      .contact-me .contact-me-content article .arrow-left-button {
+        float: right;
+        margin-right: 10px;
+        margin-top: 20px; }
+      .contact-me .contact-me-content article .contact-me-form {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px; }
+        .contact-me .contact-me-content article .contact-me-form input,
+        .contact-me .contact-me-content article .contact-me-form textarea {
+          display: block;
+          margin: 10px auto;
+          width: 60%;
+          border-radius: 4px;
+          border: 0;
+          padding: 5px;
+          resize: none;
+          background: #CCC;
+          color: black; }
+        .contact-me .contact-me-content article .contact-me-form textarea {
+          height: 200px; }
+        .contact-me .contact-me-content article .contact-me-form button {
+          display: block;
+          margin: 20px auto;
+          border-radius: 4px;
+          border: 0;
+          padding: 10px;
+          padding-left: 20px;
+          padding-right: 20px;
+          color: black; }
+
+.other-activities-body {
+  background: #475020; }
+
+.other-activities {
+  width: 100%; }
+  .other-activities .other-activities-image {
+    background: url(../images/rugbyBall.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%; }
+  .other-activities .other-activities-content {
+    display: inline-block;
+    height: 65%;
+    width: 100%;
+    position: relative; }
+    .other-activities .other-activities-content article {
+      position: absolute;
+      top: -45%;
+      left: 5%;
+      width: 90%;
+      color: white;
+      font-size: 16;
+      background: #796b37;
+      /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(#796b37, rgba(121, 107, 55, 0.6));
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(#796b37, rgba(121, 107, 55, 0.6));
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(#796b37, rgba(121, 107, 55, 0.6));
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(#796b37, rgba(121, 107, 55, 0.6));
+      /* Standard syntax */ }
+      .other-activities .other-activities-content article .other-activities-title-section .other-activities-title {
+        display: inline-block;
+        padding-left: 100px;
+        padding-top: 50px; }
+        .other-activities .other-activities-content article .other-activities-title-section .other-activities-title h3 {
+          font-size: 33px;
+          line-height: 25px; }
+          .other-activities .other-activities-content article .other-activities-title-section .other-activities-title h3.darkGreen {
+            color: #475020; }
+          .other-activities .other-activities-content article .other-activities-title-section .other-activities-title h3.black {
+            color: black; }
+      .other-activities .other-activities-content article .other-activities-name {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 16px;
+        display: inline-block; }
+        .other-activities .other-activities-content article .other-activities-name .darkGreen {
+          color: #475020; }
+        .other-activities .other-activities-content article .other-activities-name .black {
+          color: black; }
+      .other-activities .other-activities-content article .arrow-down-button, .other-activities .other-activities-content article .arrow-left-button, .other-activities .other-activities-content article .arrow-down-button-dark, .other-activities .other-activities-content article .arrow-left-button-dark {
+        float: right;
+        margin-right: 40px;
+        margin-top: 20px; }
+      .other-activities .other-activities-content article .arrow-left-button {
+        float: right;
+        margin-right: 10px;
+        margin-top: 20px; }
+      .other-activities .other-activities-content article p {
+        padding-left: 100px;
+        padding-right: 100px; }
+        .other-activities .other-activities-content article p.about-me-text {
+          padding-top: 50px; }
+
+.work {
+  margin: 0 auto;
+  display: block;
+  overflow: hidden; }
+  .work .title {
+    width: 100%;
+    height: 320px;
+    display: block;
+    font-size: 0; }
+    .work .title .title-img {
+      display: inline-block;
+      width: 50%;
+      height: 100%;
+      float: left; }
+      .work .title .title-img img {
+        width: 100%;
+        height: 100%; }
+    .work .title .title-text {
+      display: inline-block;
+      width: 50%;
+      position: relative; }
+      .work .title .title-text span {
+        width: 375px;
+        float: left;
+        padding-left: 80px;
+        padding-top: 90px;
+        line-height: 1; }
+        .work .title .title-text span b {
+          font-size: 36pt;
+          color: #727272; }
+      .work .title .title-text .arrow-down-button-dark {
+        position: absolute;
+        right: 20px;
+        top: 20px; }
+      .work .title .title-text .arrow-left-button-dark {
+        position: absolute;
+        right: 80px;
+        top: 20px; }
+  .work .box {
+    font-size: 0;
+    width: 100%;
+    display: block; }
+    .work .box .left-side {
+      width: 50%;
+      display: inline-block; }
+    .work .box .right-side {
+      width: 50%;
+      display: inline-block; }
+  .work .box-img {
+    display: inline-block;
+    transform: scale(0);
+    opacity: 0; }
+    .work .box-img.bimk {
+      background: url("../images/bimk.png") no-repeat center;
+      width: 100%; }
+    .work .box-img.ist {
+      background: url("../images/ist.png") no-repeat center;
+      width: 100%; }
+    .work .box-img.inesc {
+      background: url("../images/inesc.png") no-repeat center;
+      width: 100%; }
+    .work .box-img.premium {
+      background: url("../images/premium.png") no-repeat center;
+      width: 100%; }
+  .work .box-text {
+    transform: scale(0);
+    opacity: 0;
+    color: white;
+    padding: 60px 100px 50px;
+    font-size: 12pt; }
+    .work .box-text p {
+      padding-bottom: 30px; }
+    .work .box-text h3 {
+      font-weight: 100;
+      padding-bottom: 30px;
+      font-size: 1.875em; }
+      .work .box-text h3.middle {
+        padding-top: 130px; }
+    .work .box-text.integrate {
+      text-align: right; }
+    .work .box-text.strategy-box {
+      transform: scale(1);
+      opacity: 1; }
+  .work .mini-box {
+    display: block;
+    transform: scale(0);
+    opacity: 0;
+    width: 250px;
+    height: 250px; }
+    .work .mini-box .mini-box-text {
+      color: white;
+      font-size: 90pt;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      padding-top: 70px; }
+  .work .footer {
+    width: 100%;
+    margin: 0 auto;
+    background: #F57C00;
+    text-align: center; }
+    .work .footer .social-icons {
+      display: inline-block; }
+      .work .footer .social-icons ul {
+        list-style: none; }
+        .work .footer .social-icons ul li {
+          display: inline-block; }
+      .work .footer .social-icons a {
+        color: white;
+        text-decoration: none;
+        padding: 10px; }
+  .work .primary-color-dark {
+    background-color: #F57C00; }
+  .work .primary-color {
+    background-color: #FF9800; }
+  .work .primary-color-light {
+    background-color: #FFE0B2;
+    color: black; }
+  .work .accent-color {
+    background-color: #03A9F4; }
+  .work .divider-color {
+    background-color: #B6B6B6; }
+  .work .right {
+    text-align: left;
+    float: right; }
+    .work .right.strategy {
+      text-align: right; }
+  .work .left {
+    text-align: left;
+    float: left; }
+  .work .smallest-height {
+    height: 250px; }
+  .work .small-height {
+    height: 350px; }
+  .work .large-height {
+    height: 500px; }
+  .work .larger-height {
+    height: 675px; }
+  .work .big-height {
+    height: 820px; }
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300; }
+
+/*# sourceMappingURL=site.css.map */
